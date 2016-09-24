@@ -13,3 +13,12 @@ As required to send result after 5 hours of work, many requirements are not sati
 The main package used for the app: Python Social Auth
 https://python-social-auth.readthedocs.io/en/latest/
 https://github.com/omab/python-social-auth
+
+In order to test the application:
+go inside the outer mysite folder where manage.py exists and run the following commands:
+python3 manage.py migrate
+python3 manage.py runserver
+
+Then open your browser and type:
+http://localhost:8000/
+and enjoy!
